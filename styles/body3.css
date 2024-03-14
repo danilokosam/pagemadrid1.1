@@ -46,7 +46,7 @@ nav {
   /* background-color: red; */
   /* position: absolute;
       bottom: 0; */
-      background-image: linear-gradient(to top,#35374B,#000000);
+  background-image: linear-gradient(to top, #160f0d, #000000);
 }
 
 ul {
@@ -163,13 +163,17 @@ p {
 }
 
 footer {
-  background-image: linear-gradient(to top,#35374B,#000000);
+  background-image: linear-gradient(to top, #160f0d, #000000);
   grid-column: 1 / 4;
   height: 50px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer p {
+  font-weight: 700;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
